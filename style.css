@@ -1,0 +1,74 @@
+/*------general---------*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  display: block;
+  font-family: sans-serif;
+}
+
+.nav {
+  width: 100%;
+  height: 2em;
+  background: rgba(102, 41, 50, 0.5);
+  padding: 0.75em 0em 0.75em 0em;
+  position: fixed;
+  top: 0;
+}
+
+.nav .logo {
+  height: 100%;
+  margin-left: 10em;
+}
+
+.nav ul {
+  text-align: center;
+  margin-right: 10em;
+  margin-top: inherit;
+  display: block;
+  float: right;
+}
+
+.nav ul li {
+  color: white;
+  list-style-type: none;
+  display: inline-block;
+  margin: 0.5em 2em 0 2em;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav ul li a:hover {
+  color: rgba(0, 255, 0, 1);
+}
+
+.wrapper {
+  height: 50em;
+  background-image: url(hero-brust.svg), linear-gradient(#FF6D79, #FFC646);
+  background-repeat: no-repeat, no-repeat;
+  background-size: cover auto;
+  position: inherit;
+  display: flex;
+  align-content: center;
+}
+
+.wrapper .main {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+.footer {
+  display: block;
+  background: black;
+  color: white;
+}
+
+/*--------responsive----------*/
