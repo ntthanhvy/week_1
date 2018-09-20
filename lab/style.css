@@ -117,6 +117,7 @@ footer {
 .row-1 {
   display: flex;
   flex-direction: row;
+  margin-top: 50px;
 }
 
 #footer-logo {
@@ -126,29 +127,58 @@ footer {
 .col-1 {
   display: inline-block;
   flex-direction: column;
-  margin-right: 20px;
+  margin-right: 50px;
   vertical-align: top;
 }
 
 .col-1 a {
   color: white;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .col-1 ul {
   list-style-type: none;
+  margin: none;
+  padding: none;
 }
 
 .col-1 li {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  font-size: 15px;
+  font-size: 17px;
+  line-height: 2;
 }
 
 .col-1 li:first-child {
   color: grey;
   text-transform: uppercase;
+}
+
+.row-1 li:last-child{
+  margin: 0;
+}
+
+.last ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.last .social {
+  background-color: grey;
+  display: block;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin: 0;
+}
+
+
+.last li {
+  display: inline-block;
 }
 
 /*--------responsive----------*/
